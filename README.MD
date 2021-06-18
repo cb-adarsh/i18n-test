@@ -3,6 +3,7 @@
 Simple locale tester tool to check whether keys used in Chargebee-ui repo has equivalent definitions
 
 checkKeys -> Scrubs through all the files under 'srcPath' and searches for string with pattern 'dot separated in single quotes' Ex: 'global.action.dismiss'
+
 checkLocale -> Scrubs through all the files under 'srcPath' and checks for unused locales
 ## Usage
 
