@@ -1,0 +1,17 @@
+{
+  "name": "i18n-test",
+  "version": "1.0.0",
+  "description": "Simple locale tester tool to check whether keys used in Chargebee-ui repo has equivalent definitions and unused keys",
+  "scripts": {
+    "checkKeys": "node src/command.js --checkKeys",
+    "checkLocale": "node src/command.js --checkLocale"
+  },
+  "keywords": [],
+  "author": "Adarsh Jain",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "vue": "^2.6.14",
+    "vue-i18n": "^8.24.4"
+  }
+}
